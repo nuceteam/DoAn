@@ -1,0 +1,11 @@
+C:\Users\MyPC\Desktop\zzzzz\DoAnHDT\DoAnHDT\bin\Debug\DoAnHDT.exe.config
+C:\Users\MyPC\Desktop\Dino\zzzzz\DoAnOOP\DoAnHDT\DoAnHDT\bin\Debug\DoAnHDT.exe.config
+C:\Users\MyPC\Desktop\Dino\zzzzz\DoAnOOP\DoAnHDT\DoAnHDT\bin\Debug\DoAnHDT.exe
+C:\Users\MyPC\Desktop\Dino\zzzzz\DoAnOOP\DoAnHDT\DoAnHDT\bin\Debug\DoAnHDT.pdb
+C:\Users\MyPC\Desktop\Dino\zzzzz\DoAnOOP\DoAnHDT\DoAnHDT\obj\Debug\DoAnHDT.csprojResolveAssemblyReference.cache
+C:\Users\MyPC\Desktop\Dino\zzzzz\DoAnOOP\DoAnHDT\DoAnHDT\obj\Debug\DoAnHDT.Properties.Resources.resources
+C:\Users\MyPC\Desktop\Dino\zzzzz\DoAnOOP\DoAnHDT\DoAnHDT\obj\Debug\DoAnHDT.csproj.GenerateResource.Cache
+C:\Users\MyPC\Desktop\Dino\zzzzz\DoAnOOP\DoAnHDT\DoAnHDT\obj\Debug\DoAnHDT.exe
+C:\Users\MyPC\Desktop\Dino\zzzzz\DoAnOOP\DoAnHDT\DoAnHDT\obj\Debug\DoAnHDT.pdb
+C:\Users\MyPC\Desktop\Dino\zzzzz\DoAnOOP\DoAnHDT\DoAnHDT\obj\Debug\DoAnHDT.View.f_KhachHang.resources
+C:\Users\MyPC\Desktop\Dino\zzzzz\DoAnOOP\DoAnHDT\DoAnHDT\obj\Debug\DoAnHDT.View.f_DangNhap.resources
