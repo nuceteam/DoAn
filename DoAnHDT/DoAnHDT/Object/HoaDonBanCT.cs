@@ -29,9 +29,9 @@ namespace DoAnHDT.Object
             get { return _soluong; }
             set { _soluong = value; }
         }
-        private float _giamgia;
+        private int _giamgia;
 
-        public float GiamGia
+        public int GiamGia
         {
             get { return _giamgia; }
             set { _giamgia = value; }
@@ -41,7 +41,7 @@ namespace DoAnHDT.Object
         {
 
         }
-        public HoaDonBanCT(int _mahdb, string _mamh, int _soluong, float _giamgia)
+        public HoaDonBanCT(int _mahdb, string _mamh, int _soluong, int _giamgia)
         {
             this._mahdb = _mahdb;
             this._mamh = _mamh;

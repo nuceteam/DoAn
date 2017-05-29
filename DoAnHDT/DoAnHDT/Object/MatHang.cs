@@ -9,7 +9,7 @@ namespace DoAnHDT.Object
     class MatHang
     {
         private string _mamh;
-        private float _giaban;
+        private int _giaban;
         private string _tenmh;
         private string _hangsx;
         private int _soluong;
@@ -38,7 +38,7 @@ namespace DoAnHDT.Object
             set { _soluong = value; }
         }
 
-        public float GiaBan
+        public int GiaBan
         {
             get { return _giaban; }
             set { _giaban = value; }
@@ -46,7 +46,7 @@ namespace DoAnHDT.Object
 
         public MatHang() { }
 
-        public MatHang(string _mamh, string _tenmh, string _hangsx, int _soluong, float _giaban)
+        public MatHang(string _mamh, string _tenmh, string _hangsx, int _soluong, int _giaban)
         {
             this._mamh = _mamh;
             this._giaban = _giaban;

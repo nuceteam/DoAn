@@ -46,9 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\HoaDonBanCTCtr.cs" />
+    <Compile Include="Controller\HoaDonBanCtr.cs" />
     <Compile Include="Controller\KhachHangCtr.cs" />
+    <Compile Include="Controller\MatHangCtr.cs" />
+    <Compile Include="Controller\NhaCungCapCtr.cs" />
     <Compile Include="Model\ConnectToSQL.cs" />
+    <Compile Include="Model\HoaDonBanCTMod.cs" />
+    <Compile Include="Model\HoaDonBanMod.cs" />
     <Compile Include="Model\KhachHangMod.cs" />
+    <Compile Include="Model\MatHangMod.cs" />
     <Compile Include="Model\NhaCungCapMod.cs" />
     <Compile Include="Object\DonDatHang.cs" />
     <Compile Include="Object\DonDatHangCT.cs" />
@@ -67,11 +74,29 @@
     <Compile Include="View\f_DangNhap.Designer.cs">
       <DependentUpon>f_DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\f_HoaDonBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\f_HoaDonBan.Designer.cs">
+      <DependentUpon>f_HoaDonBan.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\f_KhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\f_KhachHang.Designer.cs">
       <DependentUpon>f_KhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\f_MatHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\f_MatHang.Designer.cs">
+      <DependentUpon>f_MatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\f_NhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\f_NhaCungCap.Designer.cs">
+      <DependentUpon>f_NhaCungCap.cs</DependentUpon>
     </Compile>
     <Compile Include="View\MainForm.cs">
       <SubType>Form</SubType>
@@ -93,8 +118,17 @@
     <EmbeddedResource Include="View\f_DangNhap.resx">
       <DependentUpon>f_DangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\f_HoaDonBan.resx">
+      <DependentUpon>f_HoaDonBan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\f_KhachHang.resx">
       <DependentUpon>f_KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\f_MatHang.resx">
+      <DependentUpon>f_MatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\f_NhaCungCap.resx">
+      <DependentUpon>f_NhaCungCap.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

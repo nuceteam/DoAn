@@ -22,23 +22,23 @@ namespace DoAnHDT.Object
             get { return _makh; }
             set { _makh = value; }
         }
-        private DateTime _ngayban;
+        private string _ngayban;
 
-        public DateTime NgayBan
+        public string NgayBan
         {
             get { return _ngayban; }
             set { _ngayban = value; }
         }
-        private float _tonggiamgia;
+        private int _tonggiamgia;
 
-        public float TongGiamGia
+        public int TongGiamGia
         {
             get { return _tonggiamgia; }
             set { _tonggiamgia = value; }
         }
-        private float _tongtien;
+        private int _tongtien;
 
-        public float TongTien
+        public int TongTien
         {
             get { return _tongtien; }
             set { _tongtien = value; }
@@ -55,7 +55,7 @@ namespace DoAnHDT.Object
         {
 
         }
-        public HoaDonBan(int _makh, DateTime _ngayban, float _tonggiamgia, float _tongtien, string _ghichu)
+        public HoaDonBan(int _makh, string _ngayban, int _tonggiamgia, int _tongtien, string _ghichu)
         {
             this._makh = _makh;
             this._ngayban = _ngayban;

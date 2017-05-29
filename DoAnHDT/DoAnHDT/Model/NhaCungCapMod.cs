@@ -18,7 +18,7 @@ namespace DoAnHDT.Model
         public DataTable GetData(string keysearch)
         {
             DataTable dt = new DataTable();
-            cmd.CommandText = "Select * from NhaCungCap where ConCat(Tenncc,DiaChi,DienThoai) like N'%" + keysearch + "%'";
+            cmd.CommandText = "Select * from NhaCungCap where ConCat(TenNCC,DiaChi,DienThoai,SoFax) like N'%" + keysearch + "%'";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.Connection;
             try
@@ -39,7 +39,7 @@ namespace DoAnHDT.Model
 
         public bool AddData(NhaCungCap ncc)
         {
-            cmd.CommandText = "Insert into NhaCungCap values (N'" + ncc.TenNCC + "',N'" + ncc.DiaChi + "',N'" + ncc.DienThoai + "')";
+            cmd.CommandText = "Insert into NhaCungCap values (N'" + ncc.TenNCC + "',N'" + ncc.DiaChi + "',N'" + ncc.DienThoai + "','"+ncc.SoFax+"')";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.Connection;
             try
@@ -60,7 +60,7 @@ namespace DoAnHDT.Model
         public bool UpdData(NhaCungCap ncc)
         {
 
-          //  cmd.CommandText = "Update NhaCungCap set Tenncc =  N'" + ncc.TenNCC + "', DiaChi = N'" + ncc.DiaChi + "', DienThoai ='" + ncc.DienThoai + "' Where Mancc =" + ncc.Mancc + "";
+            cmd.CommandText = "Update NhaCungCap set TenNCC =  N'" + ncc.TenNCC + "', DiaChi = N'" + ncc.DiaChi + "', DienThoai ='" + ncc.DienThoai + "', SoFax ='" + ncc.SoFax + "' Where Mancc =" + ncc.MaNCC + "";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.Connection;
             try
@@ -80,7 +80,7 @@ namespace DoAnHDT.Model
 
         public bool DelData(string ma)
         {
-            cmd.CommandText = "Delete NhaCungCap Where Mancc = '" + ma + "'";
+            cmd.CommandText = "Delete NhaCungCap Where MaNCC = '" + ma + "'";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.Connection;
             try

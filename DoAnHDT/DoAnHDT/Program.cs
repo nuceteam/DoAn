@@ -16,7 +16,7 @@ namespace DoAnHDT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new f_DangNhap());
+            Application.Run(new f_KhachHang());
         }
     }
 }
