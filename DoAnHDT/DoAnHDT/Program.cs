@@ -8,6 +8,7 @@ namespace DoAnHDT
 {
     static class Program
     {
+        public static bool OpenDetailFormOnClose { get; set; }
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +17,13 @@ namespace DoAnHDT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+           // OpenDetailFormOnClose = false;
+
             Application.Run(new f_HoaDonBan());
+            //if (OpenDetailFormOnClose)
+            //{
+            //    Application.Run(new f_HoaDonBan());
+            //}
         }
     }
 }

@@ -22,9 +22,9 @@ namespace DoAnHDT.Object
             get { return _makh; }
             set { _makh = value; }
         }
-        private string _ngayban;
+        private DateTime _ngayban;
 
-        public string NgayBan
+        public DateTime NgayBan
         {
             get { return _ngayban; }
             set { _ngayban = value; }
@@ -55,7 +55,7 @@ namespace DoAnHDT.Object
         {
 
         }
-        public HoaDonBan(int _makh, string _ngayban, int _tonggiamgia, int _tongtien, string _ghichu)
+        public HoaDonBan(int _makh, DateTime _ngayban, int _tonggiamgia, int _tongtien, string _ghichu)
         {
             this._makh = _makh;
             this._ngayban = _ngayban;

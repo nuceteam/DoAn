@@ -31,7 +31,11 @@ namespace DoAnHDT.View
                 MessageBox.Show("Sai tên tài khoản hoặc mật khẩu", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            f_HoaDonBan fm = new f_HoaDonBan();
             MessageBox.Show("Đăng nhập thành công");
+            fm.Show();
+            Program.OpenDetailFormOnClose = true;
+            this.Close();
         }
     }
 }
