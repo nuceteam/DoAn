@@ -41,7 +41,7 @@ namespace DoAnHDT.Object
         {
 
         }
-        public HoaDonBanCT(int _mahdb, string _mamh, int _soluong, int _giamgia)
+        public HoaDonBanCT(int _mahdb, string _mamh, int _soluong, Int32 _giamgia)
         {
             this._mahdb = _mahdb;
             this._mamh = _mamh;

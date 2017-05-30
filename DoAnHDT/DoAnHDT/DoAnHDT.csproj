@@ -64,6 +64,7 @@
     <Compile Include="Object\HoaDonNhap.cs" />
     <Compile Include="Object\HoaDonNhapCT.cs" />
     <Compile Include="Object\KhachHang.cs" />
+    <Compile Include="Object\KhachHang1.cs" />
     <Compile Include="Object\MatHang.cs" />
     <Compile Include="Object\NhaCungCap.cs" />
     <Compile Include="Object\PhieuBH.cs" />
